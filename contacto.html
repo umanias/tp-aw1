@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="recursos/imagenes/logos/logo.png">
+    <link rel="stylesheet" href="recursos/css/contacto.css">
+    <title>Moda Cordoba</title>
+</head>
+<body>
+    <header>
+        <button>
+            <img src="recursos/imagenes/logos/plus-pequeno.png" alt="Menu Lateral">
+        </button>
+        <div class="logo-titulo">
+            <a href="index.html">
+                <img src="recursos/imagenes/logos/logo.png" alt="Logo">
+            </a>
+            <h1>Moda Córdoba</h1>
+        </div>
+        <div class="login-carrito">
+            <a href="login.html">
+                <button>Iniciar Sesion</button>
+            </a>
+            <button>
+                <img src="recursos/imagenes/logos/carro.png" alt="Carro de Compras">
+            </button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html">Inicio</a>
+        <a href="prendas.html">Prendas</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="contacto.html">Contacto</a>
+        <p>Avenida 1234</p>
+    </div>
+
+    <main>
+        <form action="index.html" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+            </div>
+            
+            <div>
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="number" id="telefono" placeholder="Número de Teléfono" required>
+            </div>
+            
+            <div>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" placeholder="Correo" required>
+            </div>
+        
+            <button type="submit">Enviar</button>
+        </form>
+        <hr>
+        
+        <form action="index.html" method="post">
+            <h2>Recibir Notificaciones</h2>
+            <div>
+                <label for="notificaciones-correo">Correo:</label>
+                <input type="email" id="notificaciones-correo" placeholder="Correo" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    
+    <footer>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
+            <p>+54 351 123456</p>
+        </div>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
+            <p>ModaCordoba_Shopping</p>
+        </div>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
+            <p>@ModaCordoba_Shopping</p>
+        </div>
+    </footer>
+</body>
+</html>

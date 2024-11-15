@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="recursos/imagenes/logos/logo.png">
+    <link rel="stylesheet" href="recursos/css/registro.css">
+    <title>Moda Cordoba</title>
+</head>
+<body>
+    <header>
+        <button>
+            <img src="recursos/imagenes/logos/plus-pequeno.png" alt="Menu Lateral">
+        </button>
+        <div class="logo-titulo">
+            <a href="index.html">
+                <img src="recursos/imagenes/logos/logo.png" alt="Logo">
+            </a>
+            <h1>Moda Córdoba</h1>
+        </div>
+        <div class="login-carrito">
+            <a href="login.html">
+                <button>Iniciar Sesion</button>
+            </a>
+            <button>
+                <img src="recursos/imagenes/logos/carro.png" alt="Carro de Compras">
+            </button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html">Inicio</a>
+        <a href="prendas.html">Prendas</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="contacto.html">Contacto</a>
+        <p>Avenida 1234</p>
+    </div>
+
+    <main>
+        <h2>Crear Cuenta</h2>
+
+    <form action="index.html" method="post">
+
+        <div>
+            <label for="username">Nombre de Usuario:</label><br>
+            <input type="text" id="username" name="username" placeholder="Ingresa un nombre de usuario" required>
+        </div>
+
+        <div>
+            <label for="email">Dirección de Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ingresa un correo electronico" required>
+        </div>
+
+        <div>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" placeholder="Crea una contraseña" required>
+        </div>
+
+        <div>
+            <label for="confirm-password">Confirmar Contraseña:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu contraseña" required>
+        </div>
+
+        <button type="submit">Registrarse</button>
+        <hr>
+    </form>
+
+    <p>Ya tienes cuenta? <a href="login.html">Iniciar Sesión</a></p>
+    </main>
+    
+    <footer>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
+            <p>+54 351 123456</p>
+        </div>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
+            <p>ModaCordoba_Shopping</p>
+        </div>
+        <div class="footer-item">
+            <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
+            <p>@ModaCordoba_Shopping</p>
+        </div>
+    </footer>
+</body>
+</html>
