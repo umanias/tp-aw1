@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="recursos/imagenes/logos/logo.png">
-    <link rel="stylesheet" href="recursos/css/recuperar.css">
+    <link rel="stylesheet" href="recursos/css/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Moda Cordoba</title>
 </head>
 <body>
     <header>
-        <button>
-            <img src="recursos/imagenes/logos/plus-pequeno.png" alt="Menu Lateral">
-        </button>
         <div class="logo-titulo">
             <a href="index.html">
                 <img src="recursos/imagenes/logos/logo.png" alt="Logo">
@@ -28,12 +26,36 @@
         </div>
     </header>
 
-    <div class="sidebar">
-        <a href="index.html">Inicio</a>
-        <a href="prendas.html">Prendas</a>
-        <a href="accesorios.html">Accesorios</a>
-        <a href="contacto.html">Contacto</a>
-        <p>Avenida 1234</p>
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    <span>Inicio</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="prendas.html">
+                    <i class="fas fa-tshirt"></i>
+                    <span>Prendas</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="accesorios.html">
+                    <i class="fas fa-ring"></i>
+                    <span>Accesorios</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="contacto.html">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contacto</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <p>Avenida 1234</p>
+            </div>
+        </div>
     </div>
 
     <main>
@@ -53,7 +75,7 @@
     </main>
     
     <footer>
-        <footer>
+        <ul>
             <div class="footer-item">
                 <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
                 <p>+54 351 123456</p>
@@ -66,6 +88,7 @@
                 <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
                 <p>@ModaCordoba_Shopping</p>
             </div>
+        </ul>
     </footer>
 </body>
 </html>

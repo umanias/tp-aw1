@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="recursos/imagenes/logos/logo.png">
-    <link rel="stylesheet" href="recursos/css/index.css">
+    <link rel="stylesheet" href="recursos/css/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script type="module" src="recursos/js/index.js"></script>
     <title>Moda Cordoba</title>
 </head>
 <body>
     <header>
-        <button>
-            <img src="recursos/imagenes/logos/plus-pequeno.png" alt="Menu Lateral" >
-        </button>
         <div class="logo-titulo">
             <a href="index.html">
                 <img src="recursos/imagenes/logos/logo.png"  alt="Logo">
@@ -26,83 +25,71 @@
                 <img src="recursos/imagenes/logos/carro.png"  alt="Carro de Compras">
             </button>
         </div>
-    </header>
+    </header> 
 
-    <div class="sidebar">
-        <a href="index.html">Inicio</a>
-        <a href="prendas.html">Prendas</a>
-        <a href="accesorios.html">Accesorios</a>
-        <a href="contacto.html">Contacto</a>
-        <p>Avenida 1234</p>
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    <span>Inicio</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="prendas.html">
+                    <i class="fas fa-tshirt"></i>
+                    <span>Prendas</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="accesorios.html">
+                    <i class="fas fa-ring"></i>
+                    <span>Accesorios</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="contacto.html">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contacto</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <p>Avenida 1234</p>
+            </div>
+        </div>
     </div>
     
     <main>
         <p>Moda Córdoba es tu destino ideal para descubrir las últimas tendencias en moda y estilo. Ofrecemos una amplia gama de prendas y accesorios que reflejan la elegancia y el espíritu vibrante de Córdoba. Nuestro compromiso es brindarte calidad y un servicio excepcional para que cada experiencia de compra sea inolvidable. ¡Explora nuestras colecciones y encuentra tu estilo único!</p>
         <br>
         <hr>
-        <p>PRENDAS DE ROPA MAS COMPRADAS</p>
-        <div class="prendas-mas-compradas">
-            <article>
-                <img src="recursos/imagenes/prendas/camisa-de-algodón.webp" alt="Prenda 1"  alt="Ejemplo1">
-                <h3>Camisa de Algodón</h3>
-                <p>Precio: $30.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/pantalon-tela.jfif" alt="Prenda 2"  alt="Ejemplo2">
-                <h3>Pantalones de Tela</h3>
-                <p>Precio: $40.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/vestido-verano.jfif" alt="Prenda 3"  alt="Ejemplo3">
-                <h3>Vestido de Verano</h3>
-                <p>Precio: $50.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/chaqueta-cuero.jfif" alt="Prenda 4"  alt="Ejemplo4">
-                <h3>Chaqueta de Cuero</h3>
-                <p>Precio: $80.00</p>
-            </article>
+        <h2>PRENDAS DE ROPA MAS COMPRADAS</h2>
+        <div id="prendas-productos" class="prendas-mas-compradas">
+            
         </div>
         <hr>
-        <p>ACCESORIOS MAS COMPRADOS</p>
-        <div class="accesorios-mas-comprados">
-            <article>
-                <img src="recursos/imagenes/accesorios/bufanda(1).jfif" alt="Accesorio 1" alt="Ejemplo1">
-                <h3>Bufanda de Lana</h3>
-                <p>Precio: $30.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/accesorios/gafas-sol.jfif" alt="Accesorio 2"  alt="Ejemplo2">
-                <h3>Gafas de Sol</h3>
-                <p>Precio: $40.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/accesorios/bolso-de-mano.jfif" alt="Accesorio 3"  alt="Ejemplo3">
-                <h3>Bolso de Mano</h3>
-                <p>Precio: $50.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/accesorios/collar-perlas.jfif" alt="Accesorio 4"  alt="Ejemplo4">
-                <h3>Collar de Perlas</h3>
-                <p>Precio: $80.00</p>
-            </article>
+        <h2>ACCESORIOS MAS COMPRADOS</h2>
+        <div id="accesorios-productos" class="accesorios-mas-comprados">
+            
         </div>
         <br>
     </main>
     
     <footer>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
-            <p>+54 351 123456</p>
-        </div>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
-            <p>ModaCordoba_Shopping</p>
-        </div>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
-            <p>@ModaCordoba_Shopping</p>
-        </div>
+        <ul>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
+                <p>+54 351 123456</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
+                <p>ModaCordoba_Shopping</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
+                <p>@ModaCordoba_Shopping</p>
+            </div>
+        </ul>
     </footer>
 </body>
 </html>

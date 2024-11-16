@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="recursos/imagenes/logos/logo.png">
-    <link rel="stylesheet" href="recursos/css/prendas.css">
+    <link rel="stylesheet" href="recursos/css/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script type="module" src="recursos/js/index.js"></script>
     <title>Moda Cordoba</title>
 </head>
 <body>
     <header>
-        <button>
-            <img src="recursos/imagenes/logos/plus-pequeno.png" alt="Menu Lateral" alt="Menu Lateral">
-        </button>
         <div class="logo-titulo">
             <a href="index.html">
                 <img src="recursos/imagenes/logos/logo.png"  alt="Logo">
@@ -28,78 +27,61 @@
         </div>
     </header>
 
-    <div class="sidebar">
-        <a href="index.html">Inicio</a>
-        <a href="prendas.html">Prendas</a>
-        <a href="accesorios.html">Accesorios</a>
-        <a href="contacto.html">Contacto</a>
-        <p>Avenida 1234</p>
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    <span>Inicio</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="prendas.html">
+                    <i class="fas fa-tshirt"></i>
+                    <span>Prendas</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="accesorios.html">
+                    <i class="fas fa-ring"></i>
+                    <span>Accesorios</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="contacto.html">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contacto</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <p>Avenida 1234</p>
+            </div>
+        </div>
     </div>
 
     <main>
         <input type="text" placeholder="Buscar Prendas"> <button>Buscar</button>
         <h2>Torso</h2>
-        <div class="prendas-torso">
-            <article>
-                <img src="recursos/imagenes/prendas/camisa-de-algodón.webp" alt="Remera 1" alt="Ejemplo1">
-                <h3>Camisa de Algodón</h3>
-                <p>Precio: $30.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/vestido-verano.jfif" alt="Remera 2" alt="Ejemplo2">
-                <h3>Vestido de Verano</h3>
-                <p>Precio: $40.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/chaqueta-cuero.jfif" alt="Remera 3" alt="Ejemplo3">
-                <h3>Chaqueta de Cuero</h3>
-                <p>Precio: $50.00</p>
-            </article>
-            <article>
-                <img src="recursos/imagenes/prendas/" alt="Remera 4" alt="Ejemplo4">
-                <h3>Campera Deportiva</h3>
-                <p>Precio: $80.00</p>
-            </article>
+        <div id="prendas-productos" class="prendas">
+            
         </div>
-        <hr>
-        <h2>Pantalones</h1>
-            <div class="prendas-pantalones">
-                <article>
-                    <img src="recursos/imagenes/prendas/" alt="Pantalon 1" alt="Ejemplo5">
-                    <h3>Pantalones de Mezclilla</h3>
-                    <p>Precio: $30.00</p>
-                </article>
-                <article>
-                    <img src="recursos/imagenes/prendas/" alt="Pantalon 2" alt="Ejemplo6">
-                    <h3>Pantalones Chinos</h3>
-                    <p>Precio: $40.00</p>
-                </article>
-                <article>
-                    <img src="recursos/imagenes/prendas/" alt="Pantalon 3" alt="Ejemplo7">
-                    <h3>Pantalones Jogger</h3>
-                    <p>Precio: $50.00</p>
-                </article>
-                <article>
-                    <img src="recursos/imagenes/prendas/" alt="Pantalon 4" alt="Ejemplo8">
-                    <h3>Pantalones de Vestir</h3>
-                    <p>Precio: $80.00</p>
-                </article>
-            </div>
     </main>
     
     <footer>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
-            <p>+54 351 123456</p>
-        </div>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
-            <p>ModaCordoba_Shopping</p>
-        </div>
-        <div class="footer-item">
-            <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
-            <p>@ModaCordoba_Shopping</p>
-        </div>
+        <ul>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
+                <p>+54 351 123456</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
+                <p>ModaCordoba_Shopping</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
+                <p>@ModaCordoba_Shopping</p>
+            </div>
+        </ul>
     </footer>
 </body>
 </html>
