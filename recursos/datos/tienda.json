@@ -1,0 +1,247 @@
+{
+    "prendas": [
+        {
+            "id": 1,
+            "nombre": "Camisa de Algodón",
+            "imagen": "./recursos/imagenes/prendas/camisa-algodon.webp",
+            "precio": 30
+        },
+        {
+            "id": 2,
+            "nombre": "Chaqueta de Cuero",
+            "imagen": "./recursos/imagenes/prendas/chaqueta-cuero.jfif",
+            "precio": 80
+        },
+        {
+            "id": 3,
+            "nombre": "Pantalon de Tela",
+            "imagen": "./recursos/imagenes/prendas/pantalon-tela.jfif",
+            "precio": 40
+        },
+        {
+            "id": 4,
+            "nombre": "Vestido de Verano",
+            "imagen": "./recursos/imagenes/prendas/vestido-verano.jfif",
+            "precio": 50
+        },
+        {
+            "id": 5,
+            "nombre": "Conjunto top",
+            "imagen": "./recursos/imagenes/prendas/conjunto-top.jpg",
+            "precio": 60
+        },
+        {
+            "id": 6,
+            "nombre": "Jean Skinny",
+            "imagen": "./recursos/imagenes/prendas/jean-skinny.jpg",
+            "precio": 70
+        },
+        {
+            "id": 7,
+            "nombre": "Jogger cargo",
+            "imagen": "./recursos/imagenes/prendas/jogger-cargo.jpg",
+            "precio": 60
+        },
+        {
+            "id": 8,
+            "nombre": "Jogger gabardia",
+            "imagen": "./recursos/imagenes/prendas/jogger-gabardia.jpg",
+            "precio": 30
+        },
+        {
+            "id": 9,
+            "nombre": "Pantalon ristop",
+            "imagen": "./recursos/imagenes/prendas/pantalon-ristop.jpg",
+            "precio": 40
+        },    
+        {
+            "id": 10,
+            "nombre": "Pollera de encaje",
+            "imagen": "./recursos/imagenes/prendas/pollera-encaje.jpg",
+            "precio": 60
+        },
+        {
+            "id": 11,
+            "nombre": "Pollera larga",
+            "imagen": "./recursos/imagenes/prendas/pollera-larga.jpg",
+            "precio": 55
+        },
+        {
+            "id": 12,
+            "nombre": "Short sastrero",
+            "imagen": "./recursos/imagenes/prendas/short-sastrero.jpg",
+            "precio": 34
+        },
+        {
+            "id": 13,
+            "nombre": "Body microfibra",
+            "imagen": "./recursos/imagenes/prendas/Body-microfibra.jpg",
+            "precio": 47
+        },
+        {
+            "id": 14,
+            "nombre": "camisa denim jean",
+            "imagen": "./recursos/imagenes/prendas/camisa-denim-jean.jpg",
+            "precio": 60
+        },
+        {
+            "id": 15,
+            "nombre": "Camisa leopoldo",
+            "imagen": "./recursos/imagenes/prendas/camisa-leopoldo.jpg",
+            "precio": 75
+        },
+        {
+            "id": 16,
+            "nombre": "Camisa lino",
+            "imagen": "./recursos/imagenes/prendas/camisa-lino.jpg",
+            "precio": 59
+        },
+        {
+            "id": 17,
+            "nombre": "Camisa over",
+            "imagen": "./recursos/imagenes/prendas/camisa-over.jpg",
+            "precio": 65
+        },
+        {
+            "id": 18,
+            "nombre": "Musculosa morley",
+            "imagen": "./recursos/imagenes/prendas/musculosa-morley.png",
+            "precio": 42
+        },
+        {
+            "id": 19,
+            "nombre": "Remera de tenis",
+            "imagen": "./recursos/imagenes/prendas/Remera de tenis.jpg",
+            "precio": 30
+        },
+        {
+            "id": 20,
+            "nombre": "Remera adidas",
+            "imagen": "./recursos/imagenes/prendas/Remera-adidas.jfif",
+            "precio": 40
+        },
+        {
+            "id": 21,
+            "nombre": "Short boyfriend",
+            "imagen": "./recursos/imagenes/prendas/short-boyfriend.jpg",
+            "precio": 30
+        },
+        {
+            "id": 22,
+            "nombre": "Short roland",
+            "imagen": "./recursos/imagenes/prendas/short-roland.jpg",
+            "precio": 35
+        },
+        {
+            "id": 23,
+            "nombre": "Vestido corto",
+            "imagen": "./recursos/imagenes/prendas/vestido-corto.jpg",
+            "precio": 45
+        },
+        {
+            "id": 24,
+            "nombre": "Vestido de un hombro",
+            "imagen": "./recursos/imagenes/prendas/vestido-un-hombro.jpg",
+            "precio": 43
+        },
+        {
+            "id": 25,
+            "nombre": "Vestido valencia",
+            "imagen": "./recursos/imagenes/prendas/vestido-valencia.jpg",
+            "precio": 44
+        }
+            
+    ],
+    "accesorios": [
+        {
+            "id":26 ,
+            "nombre": "Bolsa de Mano",
+            "imagen": "./recursos/imagenes/accesorios/bolsa-mano.jfif",
+            "precio": 50
+        },
+        {
+            "id": 27,
+            "nombre": "Bufanda de Lana",
+            "imagen": "./recursos/imagenes/accesorios/bufanda.jfif",
+            "precio": 30
+        },
+        {
+            "id":28 ,
+            "nombre": "Collar de Perlas",
+            "imagen": "./recursos/imagenes/accesorios/collar-perlas.jfif",
+            "precio": 80
+        },
+        {
+            "id":29 ,
+            "nombre": "Gafas de Sol",
+            "imagen": "./recursos/imagenes/accesorios/gafas-sol.jfif",
+            "precio": 40
+        },
+        {
+            "id":30 ,
+            "nombre": "Bandolera cierre doble",
+            "imagen": "./recursos/imagenes/accesorios/bandolera-cierre-doble.jpg",
+            "precio": 30
+        },
+        {
+            "id":31 ,
+            "nombre": "Billetera WDLT",
+            "imagen": "./recursos/imagenes/accesorios/billetera-wdlt.jpg",
+            "precio": 20
+        },
+        {
+            "id":32 ,
+            "nombre": "Cartera croco",
+            "imagen": "./recursos/imagenes/accesorios/cartera-croco.jpg",
+            "precio": 40
+        },
+        {
+            "id":33 ,
+            "nombre": "Cartera grande QUEENS",
+            "imagen": "./recursos/imagenes/accesorios/cartera-grande-queens.jpg",
+            "precio": 42
+        },
+        {
+            "id":34 ,
+            "nombre": "Choker strass max gold",
+            "imagen": "./recursos/imagenes/accesorios/CHOKER-STRASS-MAX-GOLD.jpg",
+            "precio": 80
+        },
+        {
+            "id":35 ,
+            "nombre": "Collar rabit silver",
+            "imagen": "./recursos/imagenes/accesorios/COLLAR-RABIT-SILVER-.jpg",
+            "precio": 68
+        },
+        {
+            "id":36 ,
+            "nombre": "Collar sing pearl virgo",
+            "imagen": "./recursos/imagenes/accesorios/COLLAR-SING-PEARL-VIRGO.jpg",
+            "precio": 70
+        },
+        {
+            "id":37 ,
+            "nombre": "Cinto waffle",
+            "imagen": "./recursos/imagenes/accesorios/cinto-waffle.jpg",
+            "precio": 40
+        },
+        {
+            "id":38 ,
+            "nombre": "Gorra batik",
+            "imagen": "./recursos/imagenes/accesorios/gorra-batik.jpg",
+            "precio": 30
+        },
+        {
+            "id":39 ,
+            "nombre": "Sombrero playero",
+            "imagen": "./recursos/imagenes/accesorios/sombrero-playero.jpg",
+            "precio": 35
+        },
+        {
+            "id":40 ,
+            "nombre": "Tarjetero WDLT",
+            "imagen": "./recursos/imagenes/accesorios/Tarjetero-wdlt.jpg",
+            "precio": 40
+        }
+    ]
+}

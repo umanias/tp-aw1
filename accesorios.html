@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="recursos/imagenes/logos/logo.png">
+    <link rel="stylesheet" href="recursos/css/base.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Moda Cordoba</title>
+</head>
+<body>
+    <dialog class="popup-carro" id="popup-carro">
+        <form method="dialog">
+            <button>CERRAR</button>
+        </form>
+        <h2>Carrito de Compras</h2>
+        <section id="contenedor-carro">
+            
+        </section>
+    </dialog>
+
+    <header>
+        <div class="logo-titulo">
+            <a href="index.html">
+                <img src="recursos/imagenes/logos/logo.png"  alt="Logo">
+            </a>
+            <h1>Moda Córdoba</h1>
+        </div>
+        <div class="login-carrito">
+            <a href="login.html">
+                <button id="abrir-popup-carro">
+                    <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+                </button>
+            </a>
+            <button id="carritoBtn">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="contador-carrito">(0)</span>
+            </button>            
+        </div>
+    </header> 
+
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    <span>Inicio</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="prendas.html">
+                    <i class="fas fa-tshirt"></i>
+                    <span>Prendas</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="accesorios.html">
+                    <i class="fas fa-ring"></i>
+                    <span>Accesorios</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="contacto.html">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contacto</span>
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <p>Avenida 1234</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <input type="text" placeholder="Buscar Prendas" id="filtro"> <button>Buscar</button>
+        <div id="accesorios-productos" class="accesorios">
+            
+        </div>
+    </main>
+    
+    <footer>
+        <ul>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/whatsapp.png" alt="Whatsapp">
+                <p>+54 351 123456</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/facebook.png" alt="Facebook">
+                <p>ModaCordoba_Shopping</p>
+            </div>
+            <div class="footer-item">
+                <img src="recursos/imagenes/logos/instagram.png" alt="Instagram">
+                <p>@ModaCordoba_Shopping</p>
+            </div>
+        </ul>
+    </footer>
+    <script type="module" src="recursos/js/index.js"></script>
+</body>
+</html>
